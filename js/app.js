@@ -9,7 +9,7 @@ var cssLink = document.createElement('link');
 
 // Use the appendChild method on the addToHead variable to add cssLink to the DOM
 
-addhead() = addToHead.appendChild(cssLink);
+addToHead(head) = addToHead.appendChild(cssLink);
 
 // With your cssLink variable, use the setAttribute method to pass in ‘rel’, ‘stylesheet’ as arguments
 
