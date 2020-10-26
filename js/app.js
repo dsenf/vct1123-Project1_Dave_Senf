@@ -20,11 +20,14 @@ addToHead(head) = addToHead.appendChild(cssLink);
 // Repeat the previous step with ‘href’, ‘css/style.css’ as arguments
 
 // Create a variable wrapper and use the createElement method to create a ‘div’ that will be assigned to the wrapper variable
+var wrapper = document.createElement('div');
 
 // Create a variable bodY and use the querySelector method to assign the ‘body’ element to the bodY variable
 
-// Use the appendChild method on the bodY variable to add wrapper to the DOM.
+var bodY = document.querySelector('body');
 
+// Use the appendChild method on the bodY variable to add wrapper to the DOM.
+wrapper(div) = addToHead.appendChild('bodY');
 
 // 
 
