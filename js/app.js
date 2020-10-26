@@ -6,24 +6,29 @@ var cssLink = document.createElement('link');
 
 // Use the appendChild method on the addToHead variable to add cssLink to the DOM
 
-addToHead(head) = addToHead.appendChild(cssLink);
+addToHead.appendChild(cssLink);
 
 // With your cssLink variable, use the setAttribute method to pass in ‘rel’, ‘stylesheet’ as arguments
-csslink.setAttribute('rel', 'stylesheet');
+cssLink.setAttribute('rel', 'stylesheet');
 
 // Repeat the previous step with ‘href’, ‘css/style.css’ as arguments
-csslink.setAttribute('jref', 'css/style.cssl');
+cssLink.setAttribute('href', 'css/style.css');
+
+
 
 
 // Create a variable wrapper and use the createElement method to create a ‘div’ that will be assigned to the wrapper variable
 var wrapper = document.createElement('div');
+
+//Use the classList method to add the class name ‘wrapper’ to the wrapper variable. (5 points)
+wrapper.classList.add("wrapper");
 
 // Create a variable bodY and use the querySelector method to assign the ‘body’ element to the bodY variable
 
 var bodY = document.querySelector('body');
 
 // Use the appendChild method on the bodY variable to add wrapper to the DOM.
-wrapper(div) = addToHead.appendChild('bodY');
+bodY.appendChild(wrapper);
 
 // 
 
