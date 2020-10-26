@@ -1,6 +1,3 @@
-
-
-
 // Create a variable addToHead and use the querySelector method to assign the ‘head’ element to the addToHead variableaddToHead variable and use querySelector to get the CSS head element
 var addToHead = document.querySelector('head');
 
@@ -12,12 +9,11 @@ var cssLink = document.createElement('link');
 addToHead(head) = addToHead.appendChild(cssLink);
 
 // With your cssLink variable, use the setAttribute method to pass in ‘rel’, ‘stylesheet’ as arguments
-
-
-
-
+csslink.setAttribute('rel', 'stylesheet');
 
 // Repeat the previous step with ‘href’, ‘css/style.css’ as arguments
+csslink.setAttribute('jref', 'css/style.cssl');
+
 
 // Create a variable wrapper and use the createElement method to create a ‘div’ that will be assigned to the wrapper variable
 var wrapper = document.createElement('div');
@@ -30,7 +26,6 @@ var bodY = document.querySelector('body');
 wrapper(div) = addToHead.appendChild('bodY');
 
 // 
-
 
 
 
