@@ -2,7 +2,7 @@
 
 
 // Create a variable addToHead and use the querySelector method to assign the ‘head’ element to the addToHead variableaddToHead variable and use querySelector to get the CSS head element
-var = addToHead = document.querySelector('head');
+var addToHead = document.querySelector('head');
 
 // Create a ‘link’ element that will be assigned to your cssLink variable and store it in a variable.
 var cssLink = document.createElement('link');
