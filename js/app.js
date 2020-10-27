@@ -30,7 +30,15 @@ var bodY = document.querySelector('body');
 // Use the appendChild method on the bodY variable to add wrapper to the DOM.
 bodY.appendChild(wrapper);
 
-// 
 
+// Inside the block statement of our loop, create a new variable ‘divs’, 
+// and use the createElement method to create a ‘div’ element that will be assigned to your divs variable. (2.5 points)
+//Use the appendChild method on the wrapper variable to add divs to the DOM. (2.5 points)
+//Use the classList method to add the class name ‘wrapperDivs’ to your divs variable.
+
+for (i = 0; i < 4; i++) {
+    var divs = document.createElement('divs');
+  addToHead.wrapper(divsk);
+  wrapper.classList.add("divs")
 
 
