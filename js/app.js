@@ -36,13 +36,13 @@ bodY.appendChild(wrapper);
 //Use the appendChild method on the wrapper variable to add divs to the DOM. (2.5 points)
 //Use the classList method to add the class name ‘wrapperDivs’ to your divs variable.
 
-//
-for (i = 0; i < 4; i++) {
-  var divs(i) = document.createElement('div');
-  addToHead.wrapper(div);
-  wrapper.classList.add("divs")
-}
 
-//
+//for (i = 0; i < 4; i++) {
+// var divs(i) = document.createElement('div');
+//  addToHead.wrapper(div);
+//  wrapper.classList.add("divs")
+//}
+
+
 
 
