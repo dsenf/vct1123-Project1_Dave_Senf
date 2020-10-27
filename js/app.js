@@ -37,8 +37,8 @@ bodY.appendChild(wrapper);
 //Use the classList method to add the class name ‘wrapperDivs’ to your divs variable.
 
 for (i = 0; i < 4; i++) {
-    var divs = document.createElement('divs');
-  addToHead.wrapper(divsk);
+  var divs = document.createElement('divs');
+  addToHead.wrapper(div);
   wrapper.classList.add("divs")
 }
 
