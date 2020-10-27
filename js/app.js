@@ -39,8 +39,8 @@ bodY.appendChild(wrapper);
 
 for (i = 0; i < 4; i++) {
   var divs = document.createElement('div');
-  addToHead.wrapper(div);
-  wrapper.classList.add("divs")
+  addToHead.wrapper(divs);
+  wrapper.classList.add(wrapperDivs)
   }
 
   
