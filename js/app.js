@@ -15,8 +15,6 @@ cssLink.setAttribute('rel', 'stylesheet');
 cssLink.setAttribute('href', 'css/style.css');
 
 
-
-
 // Create a variable wrapper and use the createElement method to create a ‘div’ that will be assigned to the wrapper variable
 var wrapper = document.createElement('div');
 
@@ -38,8 +36,9 @@ bodY.appendChild(wrapper);
 
 
 for (i = 0; i < 4; i++) {
-  var divs = document.createElement('div');
-  addToHead.wrapper(divs);
+  var div = document.createElement('div');
+  wrapper.appendChild(cssLink);
+  adddiv.wrapper(divs);
   wrapper.classList.add(wrapperDivs)
   }
 
