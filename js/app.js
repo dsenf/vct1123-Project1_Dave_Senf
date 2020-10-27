@@ -40,5 +40,6 @@ for (i = 0; i < 4; i++) {
     var divs = document.createElement('divs');
   addToHead.wrapper(divsk);
   wrapper.classList.add("divs")
+}
 
 
