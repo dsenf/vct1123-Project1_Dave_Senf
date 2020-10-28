@@ -58,8 +58,11 @@ console.log(colorsArray);
 
 //Create a variable wrapper_Divs and use the getElementsByClassName method to assign the ‘wrapperDivs’ to the wrapper_Divs variable.
 
+var wrapper_Divs.document.getElementsByClassName.wrapperDivs('wrapperDivs');
+
+
 //Run console.log(wrapper_Divs) to see the results in the console.
-//console.log(wrapperDivs)
+console.log(wrapperDivs)
 
 //create the following variables: divOne, divTwo, divThree and divFour
 
