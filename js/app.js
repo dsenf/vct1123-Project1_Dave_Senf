@@ -61,7 +61,7 @@ console.log(colorsArray);
 var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 
 //Run console.log(wrapper_Divs) to see the results in the console.
-console.log(wrapperDivs)
+console.log(wrapper_Divs)
 
 //create the following variables: divOne, divTwo, divThree and divFour
 
