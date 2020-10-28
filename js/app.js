@@ -50,7 +50,26 @@ var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
 //Create an array variable colorsArray and assign each of the color variables above as its values
 
-var colorsArray = (color1, color2, color3, color4);
+var colorsArray = ("color1", "color2", "color3", "color4");
 
 // Run console.log(colorsArray) to see the results in the developer tools. (5 points)
+
 console.log(colorsArray);
+
+//Create a variable wrapper_Divs and use the getElementsByClassName method to assign the ‘wrapperDivs’ to the wrapper_Divs variable.
+
+//Run console.log(wrapper_Divs) to see the results in the console.
+console.log(wrapperDivs)
+
+//create the following variables: divOne, divTwo, divThree and divFour
+
+
+/*, for each variable we will assign it a value of wrapper_Divs with the item method and a value starting at zero all the way to 3.
+For example, var divOne = wrapper_Divs.item(0);
+Repeat above example for divTwo, divThree and divFour and change the value in the item method for each as explained above. (5 points)
+*/
+//Create an array variable allDivs and assign the above divNumber variables above as its values. 
+
+//Run console.log(allDivs) to see the results in the developer tools. This might be a good time to review the item method. (5 points)
+
+
