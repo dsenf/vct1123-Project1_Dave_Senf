@@ -64,13 +64,26 @@ var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 console.log(wrapper_Divs)
 
 //create the following variables: divOne, divTwo, divThree and divFour
+//For example, var divOne = wrapper_Divs.item(0);  document.body.childNodes.item(0);   
+
+var divOne;
+var divTwo;
+var divThree;
+var divFour;
 
 
-/*, for each variable we will assign it a value of wrapper_Divs with the item method and a value starting at zero all the way to 3.
-For example, var divOne = wrapper_Divs.item(0);
-Repeat above example for divTwo, divThree and divFour and change the value in the item method for each as explained above. (5 points)
-*/
+// Assign it a value of wrapper_Divs with the item method and a value starting at zero all the way to 3.
+
+var divOne = wrapper_Divs.item(0);
+var divTwo = wrapper_Divs.item(1);
+var divThree = wrapper_Divs.item(2);
+var diFour = wrapper_Divs.item(3);
+
+
 //Create an array variable allDivs and assign the above divNumber variables above as its values. 
+
+var allDivs = ("divOne", "divTwo", "divThree", "divFour");
+
 
 //Run console.log(allDivs) to see the results in the developer tools. This might be a good time to review the item method. (5 points)
 
