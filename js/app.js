@@ -50,7 +50,7 @@ var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
 //Create an array variable colorsArray and assign each of the color variables above as its values
 
-var colorAray = (color1, color2, color3, color4);
+var colorsArray = (color1, color2, color3, color4);
 
 // Run console.log(colorsArray) to see the results in the developer tools. (5 points)
 console.log(colorsArray);
