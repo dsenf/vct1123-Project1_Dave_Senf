@@ -42,6 +42,15 @@ bodY.appendChild(wrapper);
     divs.classList.add("wrapperDivs");
     
    }
-/*
-  div.appendChild(divs);
-*/
+// Create these variables: color1, color2, color3 and color4. Assign each of these values to each of the above created variables.
+var color1 = "linear-gradient(135deg, #0B132B 0%, #3A506B 100%)";
+var color2 = "linear-gradient(330deg, #5BC0BE 0%, #3A506B 100%)";
+var color3 = "linear-gradient(35deg, #0B132B 0%, #5BC0BE 100%)";
+var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)"; 
+
+//Create an array variable colorsArray and assign each of the color variables above as its values
+
+var colorAray = (color1, color2, color3, color4);
+
+// Run console.log(colorsArray) to see the results in the developer tools. (5 points)
+console.log(colorsArray);
