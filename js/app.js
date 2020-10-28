@@ -37,7 +37,8 @@ bodY.appendChild(wrapper);
 
 for (i = 0; i < 4; i++) {
   var divs = document.createElement('div');
-  div.classList.add("divs");  
+  div.appendChild(divs);
+  
 }
 /*
   div.appendChild(divs);
