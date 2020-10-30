@@ -105,6 +105,18 @@ for (i = 0; i < 4; i++) {
   update.setAttribute('id', 'ID' + [i]);
 }
 
+//Create a function called Artist with the following parameters 
+//(artistname, album, label, year, albumImg, bio). 
+//Inside the function use the ‘this’ keyword to the define the objects properties
+//With each of the parameters provided above. 
+//For example, this.artistname = artistname;. 
 
- 
+function Artist (artistname, album, label, year, albumImpg, bio) {
+  this.artistname = artistname;
+  this.album = album;
+  this.label = label;
+  this.year = year;
+  this.albumImpg = albumImp;
+  this.bio = bio;
+}
 

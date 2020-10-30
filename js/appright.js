@@ -40,8 +40,8 @@ bodY.appendChild(wrapper);
     var divs = document.createElement('div');
     wrapper.appendChild(divs);
     divs.classList.add("wrapperDivs");
-    
    }
+
 // Create these variables: color1, color2, color3 and color4. Assign each of these values to each of the above created variables.
 var color1 = "linear-gradient(135deg, #0B132B 0%, #3A506B 100%)";
 var color2 = "linear-gradient(330deg, #5BC0BE 0%, #3A506B 100%)";
@@ -50,41 +50,73 @@ var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
 //Create an array variable colorsArray and assign each of the color variables above as its values
 
-var colorsArray = ("color1", "color2", "color3", "color4");
+var colorsArray = [color1, color2, color3, color4];
 
 // Run console.log(colorsArray) to see the results in the developer tools. (5 points)
 
 console.log(colorsArray);
+
+
+
+
 
 //Create a variable wrapper_Divs and use the getElementsByClassName method to assign the ‘wrapperDivs’ to the wrapper_Divs variable.
 
 var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 
 //Run console.log(wrapper_Divs) to see the results in the console.
-console.log(wrapper_Divs)
+console.log(wrapper_Divs);
 
 //create the following variables: divOne, divTwo, divThree and divFour
 //For example, var divOne = wrapper_Divs.item(0);  document.body.childNodes.item(0);   
-
-var divOne;
-var divTwo;
-var divThree;
-var divFour;
-
 
 // Assign it a value of wrapper_Divs with the item method and a value starting at zero all the way to 3.
 
 var divOne = wrapper_Divs.item(0);
 var divTwo = wrapper_Divs.item(1);
 var divThree = wrapper_Divs.item(2);
-var diFour = wrapper_Divs.item(3);
+var divFour = wrapper_Divs.item(3);
 
 
 //Create an array variable allDivs and assign the above divNumber variables above as its values. 
 
-var allDivs = ("divOne", "divTwo", "divThree", "divFour");
+var allDivs = [divOne, divTwo, divThree, divFour];
 
 
 //Run console.log(allDivs) to see the results in the developer tools. This might be a good time to review the item method. (5 points)
 
+
+//Use a “for” loop 
+//Create a new variable myDiv, and assign it a value of allDivs[i]
+//ON the myDiv variable use the style and backgroundImage properties
+// to assign colorsArray[i] as its value (5 points)
+ 
+//Create a variable update and use the createElement method to create a ‘section’
+
+// Use the appendChild method on the myDiv variable to add update to the DOM. 
+// Use the setAttribute method to pass in ‘id’, ‘ID’ + [i] as arguments. 
+
+for (i = 0; i < 4; i++) {
+  var myDiv = allDivs[i];
+  console.log(myDiv);
+  myDiv.style.backgroundImage = colorsArray[i];
+  var update = document.createElement('section');
+  myDiv.appendChild(update);
+  update.setAttribute('id', 'ID' + [i]);
+}
+
+//Create a function called Artist with the following parameters 
+//(artistname, album, label, year, albumImg, bio). 
+//Inside the function use the ‘this’ keyword to the define the objects properties
+//With each of the parameters provided above. 
+//For example, this.artistname = artistname;. 
+
+function Artist (artistname, album, label, year, albumImpg, bio) {
+  this.artistname = artistname;
+  this.album = album;
+  this.label = label;
+  this.year = year;
+  this.albumImpg = albumImp;
+  this.bio = bio;
+}
 
