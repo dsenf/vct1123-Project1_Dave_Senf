@@ -140,3 +140,8 @@ console.log(allArtists);
 //the result should be Autechre. 
 
 console.log(allArtists[0].aristname);
+
+
+
+
+
