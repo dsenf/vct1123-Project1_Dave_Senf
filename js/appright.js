@@ -111,12 +111,11 @@ for (i = 0; i < 4; i++) {
 //With each of the parameters provided above. 
 //For example, this.artistname = artistname;. 
 
-function Artist (artistname, album, label, year, albumImpg, bio) {
+function Artist (artistname, album, label, year,bio) {
   this.artistname = artistname;
   this.album = album;
   this.label = label;
   this.year = year;
-  this.albumImpg = albumImp;
   this.bio = bio;
 }
 //Create four variables artist1, artist2, artist3 and artist4. 
