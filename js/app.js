@@ -50,11 +50,15 @@ var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
 //Create an array variable colorsArray and assign each of the color variables above as its values
 
-var colorsArray = ["color1", "color2", "color3", "color4"];
+var colorsArray = [color1, color2, color3, color4];
 
 // Run console.log(colorsArray) to see the results in the developer tools. (5 points)
 
 console.log(colorsArray);
+
+
+
+
 
 //Create a variable wrapper_Divs and use the getElementsByClassName method to assign the ‘wrapperDivs’ to the wrapper_Divs variable.
 
@@ -80,6 +84,17 @@ var allDivs = [divOne, divTwo, divThree, divFour];
 
 
 //Run console.log(allDivs) to see the results in the developer tools. This might be a good time to review the item method. (5 points)
+
+
+//Use a “for” loop 
+//Create a new variable myDiv, and assign it a value of allDivs[i]
+//ON the myDiv variable use the style and backgroundImage properties
+// to assign colorsArray[i] as its value (5 points)
+ 
+//Create a variable update and use the createElement method to create a ‘section’
+
+// Use the appendChild method on the myDiv variable to add update to the DOM. 
+// Use the setAttribute method to pass in ‘id’, ‘ID’ + [i] as arguments. 
 
 for (i = 0; i < 4; i++) {
   var myDiv = allDivs[i];
